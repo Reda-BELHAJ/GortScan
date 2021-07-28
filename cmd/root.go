@@ -30,7 +30,7 @@ var Verbose bool
 var rootCmd = &cobra.Command{
 	Use:   "GortScan",
 	Short: "GortScan is a Port Scanner in your terminal",
-	Long:  `A Fast and Flexible Port Scanner is a Port Scanner built with love by Reda BELHAJ in Go`,
+	Long:  `A Fast and Flexible Port Scanner built with love by Reda BELHAJ in Go`,
 }
 
 func Execute() {
